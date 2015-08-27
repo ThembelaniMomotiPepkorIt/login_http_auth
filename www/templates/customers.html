@@ -1,0 +1,12 @@
+<ion-view view-title="Customers">
+	<ion-nav-button side="left">
+		<button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+	</ion-nav-button>
+	<ion-content class = "padding">
+		<div class="list">
+			<a ng-repeat="customer in customers" class="item">
+				<h2>{{customer.name}}</h2>
+			</a>
+		</div>
+	</ion-content>
+</ion-view>
